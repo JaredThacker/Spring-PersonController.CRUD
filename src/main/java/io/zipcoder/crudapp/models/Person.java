@@ -10,6 +10,7 @@ public class Person {
 
     private String firstname;
     private String lastname;
+
     @Id
     @GeneratedValue (strategy = GenerationType.AUTO)
     private int id;
